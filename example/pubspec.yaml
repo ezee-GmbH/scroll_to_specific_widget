@@ -1,0 +1,22 @@
+name: example
+description: ""
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  outcome_types:
+    git:
+      url: git@github.com:ezee-GmbH/outcome_types.git
+      ref: master
+  scroll_to_specific_widget:
+    path: ..
+  provider: ^6.1.2
+
+dev_dependencies:
+  very_good_analysis: ^6.0.0
